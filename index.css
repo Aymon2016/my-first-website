@@ -1,0 +1,53 @@
+.nev{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: burlywood;
+    padding: 10px;
+    
+}
+ul li:last-child a{
+    margin-right:0px;
+
+}
+.dropdown{
+    position: relative;
+    display: none;
+}
+.dropdown-menu:hover .dropdown{
+    display:block;
+}
+
+element.style {
+}
+.dropdown ul {
+    display: inline-block;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+    right: -105px;
+}
+}
+.dropdown ul li{
+    
+    background-color: blue;
+    flex-direction: column;
+
+    
+    
+}
+.dropdown ul li a{
+    display: flex;
+    flex-direction:row;
+}
